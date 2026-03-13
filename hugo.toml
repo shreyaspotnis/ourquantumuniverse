@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Our Quantum Universe"
 
 [params]
-  description = "Exploring the quantum universe through math and physics"
+  description = "Notes for myself"
   math = true
 
 [markup]
