@@ -1,0 +1,16 @@
+baseURL = "https://shreyaspotnis.github.io/ourquantumuniverse/"
+languageCode = "en-us"
+title = "Our Quantum Universe"
+
+[params]
+  description = "Exploring the quantum universe through math and physics"
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [["\\[", "\\]"], ["$$", "$$"]]
+          inline = [["\\(", "\\)"], ["$", "$"]]
